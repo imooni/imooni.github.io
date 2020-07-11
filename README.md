@@ -9,7 +9,8 @@
 
 
 ### 简单的Html模拟页面
-`<html >
+```
+<html >
 <head>
     <meta charset="UTF-8"> <!-- for HTML5 -->
 </head>
@@ -28,7 +29,8 @@
     })
 </script>
 </body>
-</html>`
+</html>
+```
 ### 开始Debugger
 点进去上图中红线中Jquery.js.2672
 
