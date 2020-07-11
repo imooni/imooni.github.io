@@ -9,7 +9,26 @@
 
 
 ### 简单的Html模拟页面
+`<html >
+<head>
+    <meta charset="UTF-8"> <!-- for HTML5 -->
+</head>
+<body>
 
+<button name="button" >Find hidden events</button>
+
+<!-- Put below to prevent Dom rendering -->
+<script src="https://cdn.bootcdn.net/ajax/libs/jquery/1.8.3/jquery.js"></script>
+<script>
+    $(function () {
+        $("button[name='button']").on("click",function (e,args) {
+            debugger
+            console.debug("Find hidden events debugger log !")
+        })
+    })
+</script>
+</body>
+</html>`
 ### 开始Debugger
 点进去上图中红线中Jquery.js.2672
 
