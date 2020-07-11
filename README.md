@@ -56,15 +56,10 @@ Jquery3.5.1也同样适用哦。
 ![avatar](./image5.png)
 完活，开心。
 
-编程本就是孤独的旅程。
+>编程本就是孤独的旅程。
 
 
 
 
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
 
 
